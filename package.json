@@ -1,0 +1,20 @@
+{
+  "name": "samplebot",
+  "version": "1.0.0",
+  "description": "Sample Discord bot",
+  "main": "bot.js",
+  "keywords": ["discord", "bot"],
+  "author": "ozbot11",
+  "license": "ISC",
+  "scripts": {
+    "start": "node bot.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
